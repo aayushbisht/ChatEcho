@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatEcho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleDark.css">
+  </head>
+  <body>
+
+    <div id="app">
+      <div id="chat_container"></div>
+      <form >
+        <img src = "assets/bot.svg" />
+        <textarea name="prompt" id="ta" cols="1" rows="1" placeholder="Ask ChatEcho..."></textarea>
+        <button type="submit"><img src="assets/send1.png" id="enlarge"></button>
+        <div class="toggle">
+          <input type="checkbox" id="toggle"/>
+          <label for="toggle"></label>
+        </div>
+      </form>
+      
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

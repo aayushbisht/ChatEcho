@@ -1,0 +1,43 @@
+body.light-mode {
+    background: #9ED5C5 !important;
+    color: #222 !important;
+  }
+  
+  body.light-mode #app {
+    background: #DEF5E5 !important;
+  }
+  
+  body.light-mode #chat_container {
+    background: #DEF5E5 !important;
+  }
+  
+  body.light-mode .wrapper {
+    background: #DEF5E5 !important;
+  }
+  
+  body.light-mode .ai {
+    background: rgb(205, 197, 197) !important;
+  }
+  
+  body.light-mode .profile {
+    background: #5436DA !important;
+  }
+  body.light-mode .ai .profile {
+    background: #10a37f !important;
+  }
+  
+  body.light-mode .message {
+    color: #222 !important;
+  }
+  
+  body.light-mode form {
+    background:  #9ED5C5 !important;
+  }
+  
+  body.light-mode textarea {
+    background: #9ED5C5 !important;
+    color: #222 !important;
+  }
+  
+  
+  
