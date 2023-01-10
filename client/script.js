@@ -110,3 +110,7 @@ toggleButton.addEventListener('click', () => {
     document.body.classList.toggle('light-mode');
 });
 
+window.setInterval(function() {
+  var elem = document.getElementById('chat_container');
+  elem.scrollTop = elem.scrollHeight;
+}, 1000);
