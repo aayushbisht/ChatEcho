@@ -52,11 +52,13 @@ function chatStripe(isAi, value, uniqueId){
 }
 
 const handleSubmit = async(e)=>{
+  const isChecked = toggleButton.checked;
   e.preventDefault();//not let browser reload after submit
   const data = new FormData(form);
   //user chat stripe
   chatContainer.innerHTML += chatStripe(false,data.get('prompt'));
   form.reset();
+  toggleButton.checked = isChecked;
 
   //bot chat stripe
   const uniqueId = generateUniqueId();
